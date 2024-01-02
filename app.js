@@ -1,4 +1,3 @@
-const fetch = require('node-fetch');
 var sid = 'gff56f135dda7cb38d1afd39729df5ac42d0f1e7';
 deal();
 function deal() {
@@ -16,7 +15,7 @@ fetch("https://iomeu-casino-client.api.relaxg.com/game/play", {
   },
   "referrer": "https://cf-iomeu-cdn.relaxg.com/",
   "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": "{\"g\":\"blackjackneo\",\"sid\":\""+sid+"\",\"restoreState\":\"{}\",\"restoreVersion\":5000,\"ga\":\"deal\",\"ba\":\"[0,200,0]\"}",
+  "body": "{\"g\":\"blackjackneo\",\"sid\":\""+sid+"\",\"restoreState\":\"{}\",\"restoreVersion\":2,\"ga\":\"deal\",\"ba\":\"[0,5000,0]\"}",
   "method": "POST",
   "mode": "cors",
   "credentials": "omit"
@@ -154,7 +153,7 @@ fetch("https://iomeu-casino-client.api.relaxg.com/capi/2.0/casino/token/gettoken
     "Referer": "https://cf-iomeu-cdn.relaxg.com/",
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
-  "body": "{\"gameref\":\"blackjackneo\",\"ticket\":\"D7A40FAF9B7F005AEE91ED3E922E10B588241572\",\"partnerid\":\"892\",\"mode\":\"dev\",\"channel\":\"web\",\"clientid\":\"\",\"clientversion\":\"2023-08-24 1.8.0\"}",
+  "body": "{\"gameref\":\"blackjackneo\",\"ticket\":\"B4F2D4160A8C9ED704E20E4A44D43B62D421C0BC\",\"partnerid\":\"892\",\"mode\":\"dev\",\"channel\":\"web\",\"clientid\":\"\",\"clientversion\":\"2023-08-24 1.8.0\"}",
   "method": "POST"
 }).then(r => r.json()).then(r => {
 fetch("https://iomeu-casino-client.api.relaxg.com/game/rmlogin", {
@@ -177,7 +176,7 @@ fetch("https://iomeu-casino-client.api.relaxg.com/game/rmlogin", {
 sid = s.sid;
 console.log('Successfully updated the SID');
 deal();
-//Keep in mind that ticket in the 'gettoken' fetch is the one that chooses currencies. This is for only czk.
+//Keep in mind that ticket in the 'gettoken' fetch is the one that chooses currencies. This is for only CZK.
 });
 });
 };
