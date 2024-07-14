@@ -24,7 +24,7 @@ var evotoken1 = 'iJibGFja2phY2tjbGFzc2ljX2YwX2cwX2gwX2kwX2owIiwicGlkIjoic2N5YWNz
 var evotoken2 = '_FOMEZxlAXtgrLRlxlCbUxMcAKCumrYIRZGwZNupVlSyanojuY8ZKli8KlKXxNm7A';
 var ses = 'scyacsavcqmbqyuuscyacsctdzgq7l5ob2ac1322';
 var curr = 'CNY';
-var amo = 50;
+var amo = 200;
 var splitt = 0;
 var provider = "babylonrbt";
 deal();
