@@ -19,10 +19,10 @@ var options = {
                               // (v1.4 or higer) - see below for details
 };
 
-var evotoken = 'eyJraWQiOiIxNjcwOTQwNTA0MTM4IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJjdXIiOiJDQUQiLCJndHAiOiJibGFja2phY2tjbGFzc2ljIiwicGduIjoiYmxhY2tqYWNrY2xhc3NpY19mMF9nMF9oMF9pMF9qMF9ub3RfbW9iaWxlX3N3IiwianVyIjoiQ1ciLCJoaWVyYXJjaHkiOiJbYmFieWxvbnJidDAwMDAwMV0iLCJtaWQiO';
-var evotoken1 = 'iJibGFja2phY2tjbGFzc2ljX2YwX2cwX2gwX2kwX2owIiwicGlkIjoic2N4NGVsNnFvbGtieTU3NCIsImV4cCI6MTcyMTE5NDg1OCwidGlkIjoiYmxhY2tqYWNrMGgwaTBqMCIsImNpZCI6ImJhYnlsb25yYnQwMDAwMDEiLCJzaWQiOiJzY3g0ZWw2cW9sa2J5NTc0c2N4NGVtYWpndXJtcmdsNDIyN2Q3YzY0In0.Uuu7O9rodQ20_UILjMnHE';
-var evotoken2 = 'vy0ca3fYFq6x9uwfiorZ0hesowCtLjm66iq4xjaeXkQqaB8S5alKKTzic0WtA9Ukg';
-var ses = 'scx4el6qolkby574scx4emajgurmrgl4227d7c64';
+var evotoken = 'eyJraWQiOiIxNjcwOTQwNTA0MTM4IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJjdXIiOiJDTlkiLCJndHAiOiJibGFja2phY2tjbGFzc2ljIiwicGduIjoiYmxhY2tqYWNrY2xhc3NpY19mMF9nMF9oMF9pMF9qMF9ub3RfbW9iaWxlX3N3IiwianVyIjoiQ1ciLCJoaWVyYXJjaHkiOiJbYmFieWxvbnJidDAwMDAwMV0iLCJtaWQiO';
+var evotoken1 = 'iJibGFja2phY2tjbGFzc2ljX2YwX2cwX2gwX2kwX2owIiwicGlkIjoic2N5YWNzYXZjcW1icXl1dSIsImV4cCI6MTcyMTE5ODk5MywidGlkIjoiYmxhY2tqYWNrMGgwaTBqMCIsImNpZCI6ImJhYnlsb25yYnQwMDAwMDEiLCJzaWQiOiJzY3lhY3NhdmNxbWJxeXV1c2N5YWNzY3RkemdxN2w1b2IyYWMxMzIyIn0.1vT1zLt-NjK0oLwm9mEDP';
+var evotoken2 = '_FOMEZxlAXtgrLRlxlCbUxMcAKCumrYIRZGwZNupVlSyanojuY8ZKli8KlKXxNm7A';
+var ses = 'scyacsavcqmbqyuuscyacsctdzgq7l5ob2ac1322';
 var curr = 'CNY';
 var amo = 50;
 var splitt = 0;
